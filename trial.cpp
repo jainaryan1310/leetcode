@@ -8,8 +8,6 @@ typedef vector<int> vi;
 typedef pair<int, int> pi;
 
 int main(){
-	int a=5;
-	int b=6;
-	a, b = b, a;
-	cout << b << endl;
+	pair<int,int> a = make_pair(1,2);
+	cout << get<1>(a) << endl;
 }
